@@ -1,0 +1,23 @@
+.centrarimagen{
+    text-align: center;
+    position: relative;
+    top: 5px;
+    width: 100%;
+    height: auto;
+    background-color: rgb(241, 204, 19);
+   
+}
+.enlacescentrados{
+    position: absolute;
+    top: 38%;
+    left: 55%;
+}
+
+ .enlacescentrados img{
+    width: 25px;
+    height: 25px;
+ }
+ ul{
+    list-style-type: none;
+ }
+ 
