@@ -1,23 +1,83 @@
+*{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+}
 .centrarimagen{
     text-align: center;
     position: relative;
-    top: 5px;
-    width: 100%;
-    height: auto;
+    top: 20px;
     background-color: rgb(241, 204, 19);
+    width: auto;
+    margin: 10px;
+    
+
    
+}
+.centrarimagen img{
+    border-radius: 2%;
 }
 .enlacescentrados{
     position: absolute;
     top: 38%;
-    left: 55%;
+    left: 57%;
 }
+.num {
+    position: absolute;
+    top: 3%;
+    left: 109%;
+    color: rgba(3, 11, 85, 0.908);
+}
+.num2{
+    position: absolute;
+    top: 25%;
+    left: 109%;
+    color: rgba(3, 11, 85, 0.908);
 
+}
+.num3{
+    position: absolute;
+    top: 50%;
+    left: 109%;
+    color: rgba(3, 11, 85, 0.908);
+}
  .enlacescentrados img{
-    width: 25px;
+    width: 35px;
     height: 25px;
  }
  ul{
-    list-style-type: none;
+    list-style: none;
  }
+ .contenedor{
+    width: 400px;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   margin-top: 30px;
+   position:relative;
+ }
+
+
+ .parrafoflexible{
+    writing-mode:vertical-lr;
+    display: flex;
+    transform: rotate(180deg);;
+    font-size: 20px;
+
+ }
+ p{
+    position: absolute;
+    top: -20px;
+    left: 50px;
+    font-size: 18px;
+ }
+ .cuadro{
+    position: absolute;
+    top:580px;
+    border:12px solid yellow;
+    width: 24px;
+    left: 19px ;
+ }
+
  
