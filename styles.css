@@ -52,9 +52,9 @@
  }
  .contenedor{
     width: 400px;
-   background-color: rgb(255, 255, 255);
+   background-color: rgb(213, 37, 37);
    display: flex;
-   margin-top: 30px;
+   margin-top: 50px;
    position:relative;
  }
 
@@ -63,21 +63,90 @@
     writing-mode:vertical-lr;
     display: flex;
     transform: rotate(180deg);;
-    font-size: 20px;
+    font-size: 24px;
+    margin-top: 35px;
+
+
 
  }
- p{
+ .parrafo1{
     position: absolute;
-    top: -20px;
-    left: 50px;
+    bottom: 145px;
+    left: 90px;
     font-size: 18px;
  }
  .cuadro{
     position: absolute;
-    top:580px;
+    top:600px;
     border:12px solid yellow;
     width: 24px;
     left: 19px ;
  }
+ .espaciadoentreimagen{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    bottom: 70px;
+    left: 70px;
+
+
+ }
+ .espaciadoentreimagen img{
+    width: 55px;
+ }
+
+ .align1{
+    position: absolute;
+    top: 50px;
+    left: 32px;
+    font-size: 15px;
+ }
+ .align2{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    font-size: 15px;
+ }
+ .align3{
+    position: absolute;
+    top: 50px;
+    left: 202px;
+    font-size: 15px;
+ }
+ .align4{
+    position: absolute;
+    top: 50px;
+    left: 284px;
+    font-size: 15px;
+ }
+  .segundodiv{
+    position: absolute;
+    left: 800px;
+    bottom: 18px;
+ 
+ } 
+ .parrafoflexible2{
+    writing-mode:vertical-lr;
+    display: flex;
+    transform: rotate(180deg);;
+    font-size: 24px;
+    margin: 85px;
+    
+ }
+ .alineartext{
+    position: absolute;
+    bottom: 125px;
+    left: 130px;
+ }
+ .cuadro2{
+    position: absolute;
+    top:210px;
+    border:12px solid yellow;
+    width: 24px;
+    left: 79px ;
+
+ }
+
 
  
