@@ -71,7 +71,7 @@
  }
  .parrafo1{
     position: absolute;
-    bottom: 145px;
+    bottom: 410px;
     left: 90px;
     font-size: 18px;
  }
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: space-between;
     width: 300px;
-    bottom: 70px;
+    bottom: 330px;
     left: 70px;
 
 
@@ -122,30 +122,48 @@
  }
   .segundodiv{
     position: absolute;
-    left: 800px;
-    bottom: 18px;
+    left: 700px;
+    bottom: 315px;
  
  } 
  .parrafoflexible2{
-    writing-mode:vertical-lr;
-    display: flex;
-    transform: rotate(180deg);;
-    font-size: 24px;
-    margin: 85px;
-    
- }
- .alineartext{
-    position: absolute;
-    bottom: 125px;
-    left: 130px;
+   writing-mode:vertical-lr;
+   display: flex;
+   transform: rotate(180deg);;
+   font-size: 24px;
+   margin-top: 15px;
+   margin-left: 550px;
+   margin-bottom: 35px;
  }
  .cuadro2{
     position: absolute;
-    top:210px;
+    top:120px;
     border:12px solid yellow;
     width: 24px;
-    left: 79px ;
+    left: 545px ;
 
+
+ }
+ .habis{
+   width: 400px;
+   height: auto;
+   position: absolute;
+   left:645px;
+   top: -18px;
+ }
+
+ .contai{
+   width: 300px;
+   background-color: rgba(109, 114, 38, 0.226);
+   border-radius: 20px;
+ }
+ .porcentaje{
+   text-align: right;
+   color: blueviolet;
+   font-weight: 100;
+ }.diseñoGrafico{
+   background-color: rgb(206, 74, 22);
+   border-radius: 12px;
  }
 
 
