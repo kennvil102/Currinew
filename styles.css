@@ -250,7 +250,35 @@
    width: 24px;
    left: 18px;
  }
- 
+ .parrafoflexible5{
+   writing-mode:vertical-lr;
+   display: flex;
+   transform: rotate(180deg);;
+   position: absolute;
+   top: 1000px;
+ } 
+ .moverparr1{
+   position: absolute;
+   top:-120px;
+
+ }
+ .moverparr2{
+   position: absolute;
+   top:1000px;
+   left:100px;
+
+
+ }
+ .cuadro5{
+   position: absolute;
+   top:1100px;
+   border:12px solid rgb(225, 229, 10);
+   width: 24px;
+   left: 18px;
+
+ }
+
+
  
 
  
