@@ -64,20 +64,20 @@
     display: flex;
     transform: rotate(180deg);;
     font-size: 24px;
-    margin-top: 35px;
+    margin-top: 95px;
 
 
 
  }
  .parrafo1{
     position: absolute;
-    bottom: 410px;
+    bottom: 360px;
     left: 90px;
     font-size: 18px;
  }
  .cuadro{
     position: absolute;
-    top:600px;
+    top:655px;
     border:12px solid yellow;
     width: 24px;
     left: 19px ;
@@ -87,7 +87,7 @@
     display: flex;
     justify-content: space-between;
     width: 300px;
-    bottom: 330px;
+    bottom: 260px;
     left: 70px;
 
 
@@ -122,8 +122,8 @@
  }
   .segundodiv{
     position: absolute;
-    left: 700px;
-    bottom: 315px;
+    left: 550px;
+    bottom: 350px;
  
  } 
  .parrafoflexible2{
@@ -131,40 +131,126 @@
    display: flex;
    transform: rotate(180deg);;
    font-size: 24px;
-   margin-top: 15px;
-   margin-left: 550px;
-   margin-bottom: 35px;
+   margin-top: -12px;
+   margin-left: 575px;
+   margin-bottom: -25px;
  }
  .cuadro2{
     position: absolute;
-    top:120px;
+    top:95px;
     border:12px solid yellow;
     width: 24px;
-    left: 545px ;
+    left: 573px;
 
 
  }
  .habis{
-   width: 400px;
-   height: auto;
+   width: 2%;
+   height: 20px;
    position: absolute;
-   left:645px;
-   top: -18px;
+   left: 725px;
+   top: -95px;
  }
 
  .contai{
    width: 300px;
-   background-color: rgba(109, 114, 38, 0.226);
-   border-radius: 20px;
+   background-color: rgba(92, 60, 60, 0.612);
+   border-radius: 25px;
  }
  .porcentaje{
    text-align: right;
-   color: blueviolet;
+   color: rgb(237, 8, 8);
    font-weight: 100;
  }.diseñoGrafico{
-   background-color: rgb(206, 74, 22);
+   background-color: rgb(225, 229, 10);
    border-radius: 12px;
+   width: 150px;
+   height: 20px;
+  
+
+ }
+ .CS6{
+   background-color: rgb(225, 229, 10);
+   border-radius: 12px;
+   width: 230px;
+   height: 20px;
+
+ }
+ .Programacion{
+   background-color:rgb(225, 229, 10);
+    border-radius:12px;
+    width: 285px;
+    height: 20px
+ }
+ 
+ .parrafoflexible3{
+   writing-mode:vertical-lr;
+   display: flex;
+   transform: rotate(180deg);;
+   font-size: 24px;
+   margin-top: 150px;
  }
 
+ .cuadro3{
+   position: absolute;
+    top:900px;
+    border:12px solid yellow;
+    width: 24px;
+    left: 18px;
+
+ }
+ .anchohr{
+ position: relative;
+ top: -120px;
+ margin-right: 1300px;
+ width: 30%;
+
+ }
+ .moverpa{
+   position: absolute;
+   left: 140px;
+   bottom: 120px;
+ }
+ .moverpa2{
+   position: absolute;
+   bottom: 190px;
+   left: 150px;
+ }
+ .parte4{
+   position: absolute;
+  margin-left: 1100px;
+ }
+ .parrafoflexible4{
+   writing-mode:vertical-lr;
+   display: flex;
+   transform: rotate(180deg);;
+   position: absolute;
+   top: -150PX;
+   left: 14px;
+
+ }
+ .moverpar1{
+   position: absolute;
+   top: -140px;
+   left: 120px;
+
+ }
+ .moverpar2{
+   position: absolute;
+   top: -140px;
+   left: 270px;
+    
+
+
+ }
+ .cuadro4{
+   position: absolute;
+   top:-25px;
+   border:12px solid rgb(225, 229, 10);
+   width: 24px;
+   left: 18px;
+ }
+ 
+ 
 
  
