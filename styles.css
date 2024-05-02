@@ -13,6 +13,7 @@
     width: auto;
     margin: 10px;
     
+    
 
    
 }
@@ -161,27 +162,65 @@
    text-align: right;
    color: rgb(237, 8, 8);
    font-weight: 100;
+
  }.diseñoGrafico{
    background-color: rgb(225, 229, 10);
    border-radius: 12px;
    width: 150px;
    height: 20px;
+   animation: diseñoGrafico 10s forwards;
+  }
+  @keyframes diseñoGrafico {
+   0%{
+     width: 0px;
+   }
+   100%{
+     width: 149px;
+   }
+   
+  }
+   
   
 
- }
+ 
  .CS6{
    background-color: rgb(225, 229, 10);
    border-radius: 12px;
    width: 230px;
    height: 20px;
+   animation: CS6 10s forwards;
+  }
+  @keyframes CS6 {
+   0%{
+     width: 0px;
+   }
+   100%{
+     width: 226px;
+   }
+   
+  }
+    
 
- }
+ 
  .Programacion{
    background-color:rgb(225, 229, 10);
     border-radius:12px;
     width: 285px;
-    height: 20px
- }
+    height: 20px;
+    animation: Programacion 10s forwards;
+    
+   }
+   @keyframes Programacion {
+    0%{
+      width: 0px;
+    }
+    98%{
+      width: 280px;
+    }
+    
+   }
+    
+
  
  .parrafoflexible3{
    writing-mode:vertical-lr;
@@ -201,9 +240,9 @@
  }
  .anchohr{
  position: relative;
- top: -120px;
+ top: -90px;
  margin-right: 1300px;
- width: 30%;
+ width: 26%;
 
  }
  .moverpa{
@@ -246,10 +285,86 @@
  .cuadro4{
    position: absolute;
    top:-25px;
-   border:12px solid rgb(225, 229, 10);
+   border:12px solid yellow;
    width: 24px;
    left: 18px;
  }
+ .parte5{
+  position: absolute;
+  left: 20px;
+ }
+ .parrafoflexible5{
+  writing-mode:vertical-lr;
+   display: flex;
+   transform: rotate(180deg);;
+   position: absolute;
+   top:90px;
+
+ }
+ .moverparra1{
+  position: absolute;
+  left: 70px;
+  top: 70px;
+ }
+ .moverparra2{
+  position: absolute;
+  left:99px;
+  top: 99px;
+ }
+ .cuadro5{
+  position: absolute;
+  top:175px;
+  border:12px solid yellow;
+  width: 24px;
+  left: 2px;
+
+ }
+ body{
+  background-color: rgba(199, 199, 189, 0.76);
+ }
+ .alineado{
+  position: absolute;
+  left: 1300px;
+ }
+ .parrafoflexible6{
+  writing-mode:vertical-lr;
+   display: flex;
+   transform: rotate(180deg);;
+   position: absolute;
+   top:50px;
+  margin-left: -177px;
+ }
+ .cuadro6{
+  position: absolute;
+  top: 150px;
+  border:12px solid yellow;
+  width: 24px;
+  left: 1110px;
+  
+ }
+ .espaciadoentrelace{
+  position: absolute; 
+    display: flex;
+    justify-content: space-between;
+    width: 260px;
+    bottom: -120px;
+    right: -151px;
+ }
+ .espaciadoentrelace img{
+  width: 40px;
+ 
+ }
+ .textitocentrado{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 260px;
+  bottom: -150px;
+  right: -162px;
+ }
+ 
+
+
  
  
 
